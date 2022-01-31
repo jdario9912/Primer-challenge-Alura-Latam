@@ -1,0 +1,113 @@
+*{
+    font-style: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+h1, h2{
+    font-style: normal;
+    font-family: Times, 'Times New Roman', serif;
+    color: #585858;
+}
+
+h1{
+    font-size: 70px;
+    margin-bottom: 10px;
+}
+
+h2{
+    margin-top: 0px;
+}
+#encriptar{
+    margin: 6px 0px 10px 10px;
+    border-radius: 0px 0px 0px 20px;
+    border: solid mediumblue 1px;
+    padding: 12px;
+    background-color: mediumblue;
+    font-size: medium;
+    color: honeydew;
+}
+
+#desencriptar{
+    margin: 6px 10px 10px 0px;
+    border-radius: 0px 0px 20px 0px;
+    border: solid mediumblue 1px;
+    padding: 12px;
+    background-color: mediumblue;
+    font-size: medium;
+    color: honeydew;
+}
+
+#botonCopiar{
+    margin: 10px;
+    border-radius: 0px 0px 20px 20px;
+    border: solid mediumblue 1px;
+    padding: 12px 30px 12px 30px;
+    background-color: mediumblue;
+    font-size: medium;
+    color: honeydew;
+}
+
+#principal{
+    position: relative;
+    margin: 100px auto;
+    width: 40%;
+}
+
+#ingresaTexto{
+    position: relative;
+    width: auto;
+    float: left;
+    text-align: center;
+}
+
+#textoIngresado{
+    width: 255px;
+    height: 110px;
+    border: solid grey 2px;
+    text-align: justify;
+}
+
+#textoMostrado{
+    position:relative;
+    margin-top: 20px;
+    width: auto;
+    float: right;
+    text-align: center;
+}
+
+#muestraTexto{
+    width: 255px;
+    height: 110px;
+    margin: auto;
+    border: solid grey 2px;
+    text-align: justify;
+}
+
+label{
+    color: grey;
+}
+
+#boxFooter{
+    position: fixed;
+    bottom: 0;
+    width: 99%;
+    height: 60px;
+    background-color: rgb(0 0 189 / 90%);
+    text-align: center;
+}
+
+footer{
+    text-align: right;
+    padding: 22px
+}
+
+a{
+    color: honeydew;
+}
+
+img{
+    margin-left: 20px;
+    width: 20px;
+    height: 20px;
+}

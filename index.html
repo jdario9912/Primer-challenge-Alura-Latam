@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codigo Secreto</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <h1>Hola!</h1>
+    <h2>En esta aplicación podras codificar o decodificar un texo, y utilizarlo donde quieras.</h2>
+    <div id="principal">
+
+        <div id="ingresaTexto">
+            <div>
+                <label for="textoIngresado">Ingresá el texto aquí</label><br>
+                <textarea name="text-area" id="textoIngresado" cols="30" rows="10"></textarea>
+            </div>
+            <div>
+                <button id="encriptar">Codificar</button>
+                <button id="desencriptar">Decodificar</button>
+            </div>
+        </div>
+        
+        <div id="textoMostrado">
+            <div id="muestraTexto"></div>
+            <button id="botonCopiar">Copiar texto!</button>
+        </div>
+        
+    </div>
+    <div id="boxFooter">
+        <footer>
+            <a href="https://www.linkedin.com/in/joel-dario-mu%C3%B1oz-68b173180/" target="_blank"><img src="icons/linkedin-in-brands.svg" alt="">LinkedIn</a>
+        </footer>
+    </div>
+        <script type="text/javascript" src="js/encriptaTexto.js"></script>
+        <script type="text/javascript" src="js/desencriptaTexto.js"></script>
+        <script type="text/javascript" src="js/copiarTexto.js"></script>
+    <script type="text/javascript" src="js/funciones.js"></script>
+</body>
+</html>
+
+<!-- 
+    Las "llaves" de encriptación que utilizaremos son las siguientes:
+
+    La letra "e" es convertida para "enter"
+    La letra "i" es convertida para "imes"
+    La letra "a" es convertida para "ai"
+    La letra "o" es convertida para "ober"
+    La letra "u" es convertida para "ufat"
+
+    Requisitos:
+    - Debe funcionar solo con letras minúsculas
+    - No deben ser utilizados letras con acentos ni caracteres especiales
+    - Debe ser posible convertir una palabra para la versión encriptada también devolver una palabra encriptada para su versión original.
+
+    Por ejemplo:
+    "gato" => "gaitober"
+    gaitober" => "gato"
+
+    La página debe tener campos para
+    inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre las dos opciones.
+    El resultado debe ser mostrado en la pantalla.
+
+    Extras:
+    - Un botón que copie el texto encriptado/desencriptado para la sección de transferencia, o sea que tenga la misma funcionalidad del ctrl+C o de la opción "copiar" del menú de las aplicaciones.
+
+    FECHA FINAL DE ENTREGA: ANTES DEL 31 Enero!!!!
+-->
