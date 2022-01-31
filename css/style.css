@@ -4,7 +4,7 @@
     text-decoration: none;
 }
 
-h1, h2{
+h1, h2, p{
     font-style: normal;
     font-family: Times, 'Times New Roman', serif;
     color: #585858;
@@ -13,11 +13,17 @@ h1, h2{
 h1{
     font-size: 70px;
     margin-bottom: 10px;
+    color: #000000d9;
 }
 
 h2{
-    margin-top: 0px;
+    margin: 0px auto auto 50px;
 }
+
+p{
+    margin: 10px auto auto 490px;
+}
+
 #encriptar{
     margin: 6px 0px 10px 10px;
     border-radius: 0px 0px 0px 20px;
@@ -31,27 +37,27 @@ h2{
 #desencriptar{
     margin: 6px 10px 10px 0px;
     border-radius: 0px 0px 20px 0px;
-    border: solid mediumblue 1px;
+    border: solid rgb(0 0 189 / 90%) 1px;
     padding: 12px;
-    background-color: mediumblue;
+    background-color: rgb(0 0 189 / 90%);
     font-size: medium;
     color: honeydew;
 }
 
 #botonCopiar{
-    margin: 10px;
+    margin: 30px;
     border-radius: 0px 0px 20px 20px;
-    border: solid mediumblue 1px;
+    border: solid rgb(0 0 189 / 90%) 1px;
     padding: 12px 30px 12px 30px;
-    background-color: mediumblue;
+    background-color: rgb(0 0 189 / 90%);
     font-size: medium;
     color: honeydew;
 }
 
 #principal{
     position: relative;
-    margin: 100px auto;
-    width: 40%;
+    margin: 80px auto;
+    width: 45%;
 }
 
 #ingresaTexto{
@@ -70,7 +76,6 @@ h2{
 
 #textoMostrado{
     position:relative;
-    margin-top: 20px;
     width: auto;
     float: right;
     text-align: center;
@@ -86,6 +91,10 @@ h2{
 
 label{
     color: grey;
+}
+
+#mensajeError{
+    color: red;
 }
 
 #boxFooter{

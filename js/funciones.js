@@ -58,7 +58,7 @@ function encriptar(texto) {
     arrayTexto = textoAArray(texto);
     
     for (let i = 0; i < arrayTexto.length; i++) {
-        if (arrayTexto[i] == 'a' || arrayTexto[i] == 'e' || arrayTexto[i] == 'i' || arrayTexto[i] == 'o' || arrayTexto[i] == 'u') {
+        if (arrayTexto[i] === 'a' || arrayTexto[i] === 'e' || arrayTexto[i] === 'i' || arrayTexto[i] === 'o' || arrayTexto[i] === 'u') {
             switch (arrayTexto[i]) {
                 case 'a':
                     arrayTexto[i] = 'ai';
@@ -106,4 +106,16 @@ function arrayATexto(array) {
     }
 
     return textoFinal;
+}
+
+// Valida texto si esta todo en minusculas
+function validaCaracteres(texto) {
+
+    var alarma = false;
+    const reExp = /[a-z]/g;
+    
+    if(reExp.test(texto)){
+        alarma = true;
+    }
+    return alarma;
 }
