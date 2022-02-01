@@ -111,11 +111,8 @@ function arrayATexto(array) {
 // Valida texto si esta todo en minusculas
 function validaCaracteres(texto) {
 
-    var alarma = false;
-    const reExp = /[a-z]/g;
+    var reExp = /[A-ZÑá-ú]/g;
+    var resultado = reExp.test(texto);
     
-    if(reExp.test(texto)){
-        alarma = true;
-    }
-    return alarma;
+    return resultado;
 }

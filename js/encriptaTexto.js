@@ -13,17 +13,10 @@ botonEncriptar.addEventListener('click', function () {
     var texto = textoIngresado.value;
 
     if(validaCaracteres(texto)){
-        muestraTexto.textContent = encriptar(texto);
-    }else{
         mensajeError.textContent = 'Existen caracteres especiales o mayúculas';
+    }else{
+        muestraTexto.textContent = encriptar(texto);
     }
-
-// -------------------------------------------------------
-// ACA ESTOY PROBANDO SI LA CADENA TIENE CARACTERES ESPECIALES
-
-
-// -------------------------------------------------------
-    
     
 });
 
