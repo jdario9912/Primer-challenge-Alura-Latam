@@ -51,7 +51,6 @@ function desencriptar(texto) {
 function encriptar(texto) {
 
     var arrayTexto = [];
-    var caracter = '';
     var textoFinal = '';
 
     // Combierte la cadena en array

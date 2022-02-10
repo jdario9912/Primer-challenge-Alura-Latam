@@ -16,6 +16,7 @@ botonEncriptar.addEventListener('click', function () {
         mensajeError.textContent = 'Existen caracteres especiales o mayúculas';
     }else{
         muestraTexto.textContent = encriptar(texto);
+        textoIngresado.value = '';
     }
     
 });

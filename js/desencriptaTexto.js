@@ -11,5 +11,6 @@ botonDesencriptar.addEventListener('click', function () {
     
     texto = textoIngresado.value;
     muestraTexto.textContent = desencriptar(texto);
+    textoIngresado.value = '';
     
 });
